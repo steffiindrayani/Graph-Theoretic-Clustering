@@ -8,6 +8,7 @@ from scipy.sparse.csgraph import minimum_spanning_tree, connected_components
 trainingdata = pd.read_csv('CensusIncome/lala', header = None)
 testdata = pd.read_csv('CensusIncome/CencusIncome.test.txt', header = None)
 
+
 numericattributes = [0,2,4,10,11,12]
 nominalattributes = [1,3,5,6,7,8,9,13]
 classattributes = 14
